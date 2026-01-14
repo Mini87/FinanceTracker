@@ -63,3 +63,56 @@ This structure keeps the codebase maintainable, testable, and easy to extend.
 1. Clone the repository  
    ```bash
    git clone https://github.com/yourusername/finance-tracker.git
+2. Navigate to the project folder
+   ```bash
+   cd finance-tracker
+3. Restore dependencies
+   ```bash
+   dotnet restore
+4. Run Migrations
+   ```bash
+   dotnet ef database update
+5. Start the application
+   ```bash
+   dotnet run
+
+🎯 Project Goals
+
+This project was created to:
+
+Practice building a real-world full-stack application
+
+Apply clean architecture and best practices
+
+Strengthen skills in .NET, EF Core, and API design
+
+Demonstrate the ability to take a project from idea to production-ready code
+
+📌 Roadmap
+
+ Authentication & user accounts
+
+ Budget management
+
+ Reports & charts
+
+ Import transactions from CSV / bank statements
+
+ Deployment to cloud (Azure / AWS)
+
+ 
+
+👤 About Me
+
+I’m a full-stack developer specializing in C# and .NET, with experience building B2B applications, sales tools, and data-driven systems.
+This project represents my passion for creating practical software that solves real problems.
+
+👉 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/minacuculovic/) 
+
+
+
+
+
+
+
+
